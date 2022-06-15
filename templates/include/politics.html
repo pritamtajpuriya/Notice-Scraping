@@ -1,0 +1,42 @@
+<div class="row sb ai-center expanded-w border-style">
+    <div class="fs-2-2 fw-bold pad-1 text-black">राजनिति</div>
+    <a class="row gap-1 ai-center hover-0088FF" href="{% url 'category' title='politics'%}">
+        <div class="pad-0-7 bg-0088FF text-white fs-1-2">></div>
+        <div class="fs-1-4 fw-bold pr-0-7"> READ MORE</div>
+    </a>
+
+</div>
+<div class="grid-column-2-1fr mob-grid sb expanded-w sb gap-2 pt-2">
+    <div class="expanded-w  column sb pb-2 ">
+        <div class="overflow-hide"><img class=" mx-h-300 img-cover-center expanded-w cover image-zoom"
+                onclick="onClickNews('{{news.id}}')" src="{{items.politics.0.image.url}}" alt=""></div>
+        <a href="{% url 'news' id=items.politics.0.id  %}"
+            class="fs-2 fw-bold pt-2 text-black">{{items.politics.0.title}}</a>
+        <div class="fs-1-2 text-black opa-0-8 pt-2 lh-1">{{items.politics.0.description|safe }}</div>
+    </div>
+    <div class="pl-2">
+
+        <ul class="list-none-style divider font-weight-700 fs-1-4 lh-1">
+
+            {% for news in items.politics%}
+            {% if forloop.first %}
+            {%else%}
+
+            <li>
+                <div class="row gap-1">
+
+                    <img class="h-70 w-100 cover pointer" onclick="onClickNews('{{news.id}}')" src="{{news.image.url}}"
+                        alt="">
+
+
+                    <a href="{% url 'news' id=news.id  %}">{{news.title}}</a>
+                </div>
+            </li>
+            {%endif%}
+
+            {%endfor%}
+        </ul>
+
+    </div>
+</div>
+</div>

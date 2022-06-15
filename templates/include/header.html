@@ -1,0 +1,86 @@
+{% load static%}
+<div class="expanded-w h-48 center border-bottom-1-gray box-white">
+    <div class="row sb ai-center my-container pl-1 pr-1">
+        <div class="fs-1-4 fw-bold">
+            {{npdate}}
+        </div>
+        <div class="row gap-1 center">
+            <a href="#"> <img class="h-20" src="{% static 'media/Facebook.png' %}" alt=""></a>
+            <a href="#"> <img class="h-20" src="{% static 'media/Twitter.png' %}" alt=""></a>
+            <a href="#"> <img class="h-20" src="{% static 'media/Instagram.png' %}" alt=""></a>
+
+
+        </div>
+    </div>
+</div>
+<div class="my-container pv-0-5">
+
+
+    <div class="grid-column-2-1fr mob-grid center gap-1">
+
+        <div class="expanded-w center-800">
+
+            <img class="cover expanded-40 pointer" onclick="redirectHome()"
+                src="{% static 'media/logo/janabechar.svg' %}" alt="">
+        </div>
+        <div class="">
+
+            <img class="cover expanded-w" src="{% static 'media/banner/banner.svg' %}" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="nav-wrapper expanded-w bg-lightblack" id="nav-wrapper">
+    <div class="container my-container ">
+        <i class="fa fa-bars padding-10 relative text-white" id="menuIcon" onclick="showMenu()"></i>
+        <i class="fa fa-times padding-10 display-none text-white" aria-hidden="true" id="crossIcon"
+            onclick="hideMenu()"></i>
+        <div class="menu-items" id="menu-items">
+            {% if page == 'home' %}
+            <a class="nav-link active text-white" href="{% url 'home' %}"> <i class="fa fa-home"
+                    aria-hidden="true"></i></a>
+            {% else %}
+            <a class="nav-link" href="{% url 'home' %}"> <i class="fa fa-home" aria-hidden="true"></i></a>
+            {% endif %}
+
+
+            {% for category in categories %}
+
+            {% if page == category.title %}
+            <a class="nav-link active text-white" href="{% url 'category' title=category.title %}">{{category.name}}</a>
+
+            {% else %}
+            <a class="nav-link" href="{% url 'category' title=category.title %}">{{category.name}}</a>
+
+            {% endif %}
+
+            {%endfor%}
+            <a class="nav-link" href="{% url 'category' title='more' %}">अन्य</a>
+
+        </div>
+        <div class="column">
+            <i class="fa fa-search padding-10 text-white pointer" id="search-icon" aria-hidden="true"
+                onclick="showSearchInput()">
+            </i>
+
+            <div class="row" id="search-popup">
+                <input id="search-input" type="search" class="form-control" placeholder="Search"
+                    onsubmit="onSearch()" />
+
+                <button id="search-button" type="button" class="btn" onclick="onSearch()">
+                    <i class="fa fa-search  ph-1 text-white pointer" aria-hidden="true">
+                    </i>
+                </button>
+                <i class="fa fa-times text-white padding-10 pointer" aria-hidden="true" id="crossIcon"
+                    onclick="hideSearchInput()"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>

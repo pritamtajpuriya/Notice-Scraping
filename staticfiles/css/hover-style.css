@@ -1,0 +1,12 @@
+.image-hover {
+  transition: 1s;
+}
+.image-hover:hover {
+  transform: rotate(1deg) scale(1.1);
+}
+.image-zoom {
+  transition: 1s;
+}
+.image-zoom:hover {
+  transform: scale(1.1);
+}

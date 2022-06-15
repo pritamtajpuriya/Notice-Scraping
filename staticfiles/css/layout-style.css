@@ -1,0 +1,399 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.row-wrapper.sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+.jc-e {
+  justify-content: flex-end;
+}
+.row.sb {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+.gap-1 {
+  gap: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+@media screen and (max-width: 1000px) {
+  .res-grid {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .grid-column-3-1fr,
+  .grid-column-4-1fr {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mob-grid {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
+
+.res-grid {
+  display: grid;
+}
+.mob-grid {
+  display: grid;
+}
+
+.grid-column-3-1fr {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-column-2-1fr {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-column-4-1fr {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-column-5-1fr {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-cols-2fr-1fr {
+  grid-template-columns: 2fr 1fr;
+}
+.grid-cols-3fr-1fr {
+  grid-template-columns: 3fr 1fr;
+}
+.grid-cols-1fr-2fr {
+  grid-template-columns: 1fr 2fr;
+}
+
+.cover {
+  object-fit: cover;
+}
+/* Gap of column and row */
+
+.gap-0 {
+  gap: 0rem;
+}
+.gap-0-1 {
+  gap: 0.1rem;
+}
+.gap-0-2 {
+  gap: 0.2rem;
+}
+.gap-0-3 {
+  gap: 0.3rem;
+}
+.gap-0-4 {
+  gap: 0.4rem;
+}
+.gap-0-5 {
+  gap: 0.5rem;
+}
+.gap-0-6 {
+  gap: 0.6rem;
+}
+.gap-0-7 {
+  gap: 0.7rem;
+}
+.gap-0-8 {
+  gap: 0.8rem;
+}
+.gap-0-9 {
+  gap: 0.9rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-1-1 {
+  gap: 1.1rem;
+}
+.gap-1-2 {
+  gap: 1.2rem;
+}
+.gap-1-3 {
+  gap: 1.3rem;
+}
+.gap-1-4 {
+  gap: 1.4rem;
+}
+.gap-1-5 {
+  gap: 1.5rem;
+}
+.gap-1-6 {
+  gap: 1.6rem;
+}
+.gap-1-7 {
+  gap: 1.7rem;
+}
+.gap-1-8 {
+  gap: 1.8rem;
+}
+.gap-1-9 {
+  gap: 1.9rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-2-1 {
+  gap: 2.1rem;
+}
+.gap-2-2 {
+  gap: 2.2rem;
+}
+.gap-2-3 {
+  gap: 2.3rem;
+}
+.gap-2-4 {
+  gap: 2.4rem;
+}
+.gap-2-5 {
+  gap: 2.5rem;
+}
+.gap-2-6 {
+  gap: 2.6rem;
+}
+.gap-2-7 {
+  gap: 2.7rem;
+}
+.gap-2-8 {
+  gap: 2.8rem;
+}
+.gap-2-9 {
+  gap: 2.9rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.gap-3-1 {
+  gap: 3.1rem;
+}
+.gap-3-2 {
+  gap: 3.2rem;
+}
+.gap-3-3 {
+  gap: 3.3rem;
+}
+.gap-3-4 {
+  gap: 3.4rem;
+}
+.gap-3-5 {
+  gap: 3.5rem;
+}
+.gap-3-6 {
+  gap: 3.6rem;
+}
+.gap-3-7 {
+  gap: 3.7rem;
+}
+.gap-3-8 {
+  gap: 3.8rem;
+}
+.gap-3-9 {
+  gap: 3.9rem;
+}
+.gap-4 {
+  gap: 4rem;
+}
+.gap-4-1 {
+  gap: 4.1rem;
+}
+.gap-4-2 {
+  gap: 4.2rem;
+}
+.gap-4-3 {
+  gap: 4.3rem;
+}
+.gap-4-4 {
+  gap: 4.4rem;
+}
+.gap-4-5 {
+  gap: 4.5rem;
+}
+.gap-4-6 {
+  gap: 4.6rem;
+}
+.gap-4-7 {
+  gap: 4.7rem;
+}
+.gap-4-8 {
+  gap: 4.8rem;
+}
+.gap-4-9 {
+  gap: 4.9rem;
+}
+.gap-5 {
+  gap: 5rem;
+}
+.gap-5-1 {
+  gap: 5.1rem;
+}
+.gap-5-2 {
+  gap: 5.2rem;
+}
+.gap-5-3 {
+  gap: 5.3rem;
+}
+.gap-5-4 {
+  gap: 5.4rem;
+}
+.gap-5-5 {
+  gap: 5.5rem;
+}
+.gap-5-6 {
+  gap: 5.6rem;
+}
+.gap-5-7 {
+  gap: 5.7rem;
+}
+.gap-5-8 {
+  gap: 5.8rem;
+}
+.gap-5-9 {
+  gap: 5.9rem;
+}
+.gap-6 {
+  gap: 6rem;
+}
+.gap-6-1 {
+  gap: 6.1rem;
+}
+.gap-6-2 {
+  gap: 6.2rem;
+}
+.gap-6-3 {
+  gap: 6.3rem;
+}
+.gap-6-4 {
+  gap: 6.4rem;
+}
+.gap-6-5 {
+  gap: 6.5rem;
+}
+.gap-6-6 {
+  gap: 6.6rem;
+}
+.gap-6-7 {
+  gap: 6.7rem;
+}
+.gap-6-8 {
+  gap: 6.8rem;
+}
+.gap-6-9 {
+  gap: 6.9rem;
+}
+.gap-7 {
+  gap: 7rem;
+}
+.gap-7-1 {
+  gap: 7.1rem;
+}
+.gap-7-2 {
+  gap: 7.2rem;
+}
+.gap-7-3 {
+  gap: 7.3rem;
+}
+.gap-7-4 {
+  gap: 7.4rem;
+}
+.gap-7-5 {
+  gap: 7.5rem;
+}
+.gap-7-6 {
+  gap: 7.6rem;
+}
+.gap-7-7 {
+  gap: 7.7rem;
+}
+.gap-7-8 {
+  gap: 7.8rem;
+}
+.gap-7-9 {
+  gap: 7.9rem;
+}
+.gap-8 {
+  gap: 8rem;
+}
+.gap-8-1 {
+  gap: 8.1rem;
+}
+.gap-8-2 {
+  gap: 8.2rem;
+}
+.gap-8-3 {
+  gap: 8.3rem;
+}
+.gap-8-4 {
+  gap: 8.4rem;
+}
+.gap-8-5 {
+  gap: 8.5rem;
+}
+.gap-8-6 {
+  gap: 8.6rem;
+}
+.gap-8-7 {
+  gap: 8.7rem;
+}
+.gap-8-8 {
+  gap: 8.8rem;
+}
+.gap-8-9 {
+  gap: 8.9rem;
+}
+.gap-9 {
+  gap: 9rem;
+}
+.gap-9-1 {
+  gap: 9.1rem;
+}
+.gap-9-2 {
+  gap: 9.2rem;
+}
+.gap-9-3 {
+  gap: 9.3rem;
+}
+.gap-9-4 {
+  gap: 9.4rem;
+}
+.gap-9-5 {
+  gap: 9.5rem;
+}
+.gap-9-6 {
+  gap: 9.6rem;
+}
+.gap-9-7 {
+  gap: 9.7rem;
+}
+.gap-9-8 {
+  gap: 9.8rem;
+}
+.gap-9-9 {
+  gap: 9.9rem;
+}
+.gap-10 {
+  gap: 10rem;
+}

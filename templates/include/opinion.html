@@ -1,0 +1,60 @@
+<div class="my-container pt-4 pb-2">
+    <div class="bg-lightblack pad-2">
+        <div class="row sb expanded   border-style ai-center">
+            <div class="fs-2-2 fw-bold pad-1 text-white">विचार</div>
+            <a class="row gap-1 ai-center hover-0088FF" href="{% url 'category' title='opinion'%}">
+                <div class="pad-0-7 bg-0088FF text-white fs-1-2">></div>
+                <div class="fs-1-4 fw-bold pr-0-7 text-white"> READ MORE</div>
+            </a>
+        </div>
+
+        <!--===Feature Post of Entertainment  ===-->
+
+        <div class="column expanded stack pt-1 pb-1">
+
+            <div class="grid-cols-1fr-2fr mob-grid ai-center center pad-2">
+                <div class=" overflow-hide pointer stack center" onclick="onClickNews('{{items.opinion.0.id}}')">
+                    <img class="img-cover-center cover  br-20 h-200 w-200 border-white "
+                        src="{{items.opinion.0.image.url}}" alt="">
+                </div>
+                <div class="column gap-1 pad-3 text-white">
+                    <a href="{% url 'news' id=items.opinion.0.id %}"
+                        class="line-limit-3 text-white padding-bottom-10 fs-2-4 fw-bold">"
+                        {{items.opinion.0.title}} "</a>
+
+
+                </div>
+
+            </div>
+            <!-- <div class="my-overlayer position-bottom expanded"></div> -->
+
+        </div>
+        <hr width="100%" color="white" size="1">
+
+        <!--List of Post of Entertainment -->
+        <div class="mob-grid grid-column-4-1fr pt-2 gap-2 expanded text-white">
+            {% for news in items.opinion %}
+            {% if forloop.first %}
+            {% elif forloop.last %}
+            {%else%}
+
+            <div class=" row  ai-center gap-2">
+                <div class=" pointer" onclick="onClickNews('{{news.id}}')">
+                    <img class="img-cover-center cover  br-50  h-90 w-90  border-white  " src="{{news.image.url}}"
+                        alt="">
+                </div>
+
+                <div class="column  gap-">
+                    <a class="fs-1-4 fw-bold text-white" href="{% url 'news' id=news.id %}">" {{news.title}} "
+                    </a>
+
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,523 @@
+/*********************************/
+/*Font-size style*/
+/********************************/
+
+.fs-0 {
+  font-size: 0rem !important;
+}
+.fs-0-1 {
+  font-size: 0.1rem !important;
+}
+.fs-0-2 {
+  font-size: 0.2rem !important;
+}
+.fs-0-3 {
+  font-size: 0.3rem !important;
+}
+.fs-0-4 {
+  font-size: 0.4rem !important;
+}
+.fs-0-5 {
+  font-size: 0.5rem !important;
+}
+.fs-0-6 {
+  font-size: 0.6rem !important;
+}
+.fs-0-7 {
+  font-size: 0.7rem !important;
+}
+.fs-0-8 {
+  font-size: 0.8rem !important;
+}
+.fs-0-9 {
+  font-size: 0.9rem !important;
+}
+.fs-1 {
+  font-size: 1rem !important;
+}
+.fs-1-1 {
+  font-size: 1.1rem !important;
+}
+.fs-1-2 {
+  font-size: 1.2rem !important;
+}
+.fs-1-3 {
+  font-size: 1.3rem !important;
+}
+.fs-1-4 {
+  font-size: 1.4rem !important;
+}
+.fs-1-5 {
+  font-size: 1.5rem !important;
+}
+.fs-1-6 {
+  font-size: 1.6rem !important;
+}
+.fs-1-7 {
+  font-size: 1.7rem !important;
+}
+.fs-1-8 {
+  font-size: 1.8rem !important;
+}
+.fs-1-9 {
+  font-size: 1.9rem !important;
+}
+.fs-2 {
+  font-size: 2rem !important;
+}
+.fs-2-1 {
+  font-size: 2.1rem !important;
+}
+.fs-2-2 {
+  font-size: 2.2rem !important;
+}
+.fs-2-3 {
+  font-size: 2.3rem !important;
+}
+.fs-2-4 {
+  font-size: 2.4rem !important;
+}
+.fs-2-5 {
+  font-size: 2.5rem !important;
+}
+.fs-2-6 {
+  font-size: 2.6rem !important;
+}
+.fs-2-7 {
+  font-size: 2.7rem !important;
+}
+.fs-2-8 {
+  font-size: 2.8rem !important;
+}
+.fs-2-9 {
+  font-size: 2.9rem !important;
+}
+.fs-3 {
+  font-size: 3rem !important;
+}
+.fs-3-1 {
+  font-size: 3.1rem !important;
+}
+.fs-3-2 {
+  font-size: 3.2rem !important;
+}
+.fs-3-3 {
+  font-size: 3.3rem !important;
+}
+.fs-3-4 {
+  font-size: 3.4rem !important;
+}
+.fs-3-5 {
+  font-size: 3.5rem !important;
+}
+.fs-3-6 {
+  font-size: 3.6rem !important;
+}
+.fs-3-7 {
+  font-size: 3.7rem !important;
+}
+.fs-3-8 {
+  font-size: 3.8rem !important;
+}
+.fs-3-9 {
+  font-size: 3.9rem !important;
+}
+.fs-4 {
+  font-size: 4rem !important;
+}
+.fs-4-1 {
+  font-size: 4.1rem !important;
+}
+.fs-4-2 {
+  font-size: 4.2rem !important;
+}
+.fs-4-3 {
+  font-size: 4.3rem !important;
+}
+.fs-4-4 {
+  font-size: 4.4rem !important;
+}
+.fs-4-5 {
+  font-size: 4.5rem !important;
+}
+.fs-4-6 {
+  font-size: 4.6rem !important;
+}
+.fs-4-7 {
+  font-size: 4.7rem !important;
+}
+.fs-4-8 {
+  font-size: 4.8rem !important;
+}
+.fs-4-9 {
+  font-size: 4.9rem !important;
+}
+.fs-5 {
+  font-size: 5rem !important;
+}
+.fs-5-1 {
+  font-size: 5.1rem !important;
+}
+.fs-5-2 {
+  font-size: 5.2rem !important;
+}
+.fs-5-3 {
+  font-size: 5.3rem !important;
+}
+.fs-5-4 {
+  font-size: 5.4rem !important;
+}
+.fs-5-5 {
+  font-size: 5.5rem !important;
+}
+.fs-5-6 {
+  font-size: 5.6rem !important;
+}
+.fs-5-7 {
+  font-size: 5.7rem !important;
+}
+.fs-5-8 {
+  font-size: 5.8rem !important;
+}
+.fs-5-9 {
+  font-size: 5.9rem !important;
+}
+.fs-6 {
+  font-size: 6rem !important;
+}
+.fs-6-1 {
+  font-size: 6.1rem !important;
+}
+.fs-6-2 {
+  font-size: 6.2rem !important;
+}
+.fs-6-3 {
+  font-size: 6.3rem !important;
+}
+.fs-6-4 {
+  font-size: 6.4rem !important;
+}
+.fs-6-5 {
+  font-size: 6.5rem !important;
+}
+.fs-6-6 {
+  font-size: 6.6rem !important;
+}
+.fs-6-7 {
+  font-size: 6.7rem !important;
+}
+.fs-6-8 {
+  font-size: 6.8rem !important;
+}
+.fs-6-9 {
+  font-size: 6.9rem !important;
+}
+.fs-7 {
+  font-size: 7rem !important;
+}
+.fs-7-1 {
+  font-size: 7.1rem !important;
+}
+.fs-7-2 {
+  font-size: 7.2rem !important;
+}
+.fs-7-3 {
+  font-size: 7.3rem !important;
+}
+.fs-7-4 {
+  font-size: 7.4rem !important;
+}
+.fs-7-5 {
+  font-size: 7.5rem !important;
+}
+.fs-7-6 {
+  font-size: 7.6rem !important;
+}
+.fs-7-7 {
+  font-size: 7.7rem !important;
+}
+.fs-7-8 {
+  font-size: 7.8rem !important;
+}
+.fs-7-9 {
+  font-size: 7.9rem !important;
+}
+.fs-8 {
+  font-size: 8rem !important;
+}
+.fs-8-1 {
+  font-size: 8.1rem !important;
+}
+.fs-8-2 {
+  font-size: 8.2rem !important;
+}
+.fs-8-3 {
+  font-size: 8.3rem !important;
+}
+.fs-8-4 {
+  font-size: 8.4rem !important;
+}
+.fs-8-5 {
+  font-size: 8.5rem !important;
+}
+.fs-8-6 {
+  font-size: 8.6rem !important;
+}
+.fs-8-7 {
+  font-size: 8.7rem !important;
+}
+.fs-8-8 {
+  font-size: 8.8rem !important;
+}
+.fs-8-9 {
+  font-size: 8.9rem !important;
+}
+.fs-9 {
+  font-size: 9rem !important;
+}
+.fs-9-1 {
+  font-size: 9.1rem !important;
+}
+.fs-9-2 {
+  font-size: 9.2rem !important;
+}
+.fs-9-3 {
+  font-size: 9.3rem !important;
+}
+.fs-9-4 {
+  font-size: 9.4rem !important;
+}
+.fs-9-5 {
+  font-size: 9.5rem !important;
+}
+.fs-9-6 {
+  font-size: 9.6rem !important;
+}
+.fs-9-7 {
+  font-size: 9.7rem !important;
+}
+.fs-9-8 {
+  font-size: 9.8rem !important;
+}
+.fs-9-9 {
+  font-size: 9.9rem !important;
+}
+.fs-10 {
+  font-size: 10rem !important;
+}
+
+/*************************/
+/* FontWeight Style
+/*************************/
+/* void main(){
+    List<String> properties=['normal', 'bold', 'bolder', 'lighter', '100', '200', '300', '400', '500', '600', '700', '800', '900'] !important;
+    for(int i=0 !important;i<properties.length !important;i++){
+      var value=properties[i] !important;
+      print('''
+             .fw-$value{
+             font-weight:$value !important;
+             }
+   
+      ''') !important;
+    }
+  } */
+
+.fw-normal {
+  font-weight: normal !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.fw-bolder {
+  font-weight: bolder !important;
+}
+
+.fw-lighter {
+  font-weight: lighter !important;
+}
+
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+/*******************************************/
+/*Text-Color Style
+/*******************************************/
+/* void main(){
+  
+    List<String> colors=['red','white','cyan','silver', 'blue', 'gray','darkblue','black','lightblue','orange','purple','brown','yellow','maroon','lime','green','magenta','olive','pink','aquamarine'] !important;
+    List<String> colorcodes=['#FF0000','#FFFFFF','#00FFFF','#C0C0C0','#0000FF','#808080','#00008B','#000000','#ADD8E6','#FFA500','#800080','#A52A2A','#FFFF00','#800000','#00FF00','#008000','#FF00FF','#808000','#FFC0CB','#7FFD4'] !important;
+  
+    List<String> properties=['normal', 'bold', 'bolder', 'lighter', '100', '200', '300', '400', '500', '600', '700', '800', '900'] !important;
+    for(int i=0 !important;i<colors.length !important;i++){
+      var colorname=colors[i] !important;
+      var colorcode=colorcodes[i] !important;
+      print('''
+             .text-$colorname{
+             color:$colorcode !important;
+             }
+   
+      ''') !important;
+    }
+  } */
+
+.text-red {
+  color: #ff0000 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-cyan {
+  color: #00ffff !important;
+}
+
+.text-silver {
+  color: #c0c0c0 !important;
+}
+
+.text-blue {
+  color: #0000ff !important;
+}
+
+.text-gray {
+  color: #b4b2b2 !important;
+}
+
+.text-darkblue {
+  color: #00008b !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-lightblue {
+  color: #add8e6 !important;
+}
+
+.text-orange {
+  color: #ffa500 !important;
+}
+
+.text-purple {
+  color: #800080 !important;
+}
+
+.text-brown {
+  color: #a52a2a !important;
+}
+
+.text-yellow {
+  color: #ffff00 !important;
+}
+
+.text-maroon {
+  color: #800000 !important;
+}
+
+.text-lime {
+  color: #00ff00 !important;
+}
+
+.text-green {
+  color: #008000 !important;
+}
+
+.text-magenta {
+  color: #ff00ff !important;
+}
+
+.text-olive {
+  color: #808000 !important;
+}
+
+.text-pink {
+  color: #ffc0cb !important;
+}
+
+.text-aquamarine {
+  color: #7fffd4 !important;
+}
+.text-0c4da1 {
+  color: #0c4da1 !important;
+}
+.text-lowgray {
+  color: #ddd !important;
+}
+.text-danger {
+  color: #dc3545 !important;
+}
+.text-bisque {
+  color: bisque !important;
+}
+/* ***************  Opacity *****************8 */
+
+.opa-0 {
+  opacity: 0 !important;
+}
+.opa-0-1 {
+  opacity: 0.1 !important;
+}
+.opa-0-2 {
+  opacity: 0.2 !important;
+}
+.opa-0-3 {
+  opacity: 0.3 !important;
+}
+.opa-0-4 {
+  opacity: 0.4 !important;
+}
+.opa-0-5 {
+  opacity: 0.5 !important;
+}
+.opa-0-6 {
+  opacity: 0.6 !important;
+}
+.opa-0-7 {
+  opacity: 0.7 !important;
+}
+.opa-0-8 {
+  opacity: 0.8 !important;
+}
+.opa-0-9 {
+  opacity: 0.9 !important;
+}
+.opa-1 {
+  opacity: 1 !important;
+}

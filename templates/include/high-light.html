@@ -1,0 +1,12 @@
+{% load static %}
+
+{% for news in highlighted %}
+
+
+<div class="fs-2-4 fw-500 text-0c4da1 border-bottom-1-gray pb-2 pt-1 expanded-w text-center">
+    <a class="" href="{% url 'news' id=news.id  %}">>> {{news.title}}</a>
+
+</div>
+
+
+{%endfor%}

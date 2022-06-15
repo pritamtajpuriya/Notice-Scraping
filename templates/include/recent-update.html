@@ -1,0 +1,12 @@
+<div>
+    <h2 class="box-header bg-lowgray pad-1 fw-bold fs-2 text-black">ताजा अपडेट</h2>
+
+    <ul class="list-none-style divider font-weight-700 fs-1-4 bg-white pad-1">
+        {% for recent in recent_update %}
+        <li> <a class="lh-1" href="{% url 'news' id=recent.id  %}">{{recent.title}}</a></li>
+
+        {%endfor%}
+
+    </ul>
+
+</div>

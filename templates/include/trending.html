@@ -1,0 +1,32 @@
+{% load static%}
+
+<div class="my-container pad-2 fs-1-4 center bxshadow pt-2 pb-1">
+    <div class="row-wrapper gap-1">
+        <p>Trending:</p>
+        {% for tag in tags %} {% if forloop.counter < 8 %} <a href="{% url 'tag' name=tag.name %}"># {{tag.name}}</a>
+            {% else %}
+
+
+            {% endif %}
+            {% endfor %}
+
+
+    </div>
+    <div class=" fw-bold">
+        <p id="show-tag" class="pointer fs-2" onclick="showtages()">
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </p>
+        <p id="hide-tag" class="display-none pointer fs-2" onclick="hidetages()">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </p>
+    </div>
+
+
+    <div class="row-wrapper gap-1" id="extra-tags">
+        {% for tag in tags %} {% if forloop.counter >= 8 %} <a href="{% url 'tag' name=tag.name %}"># {{tag.name}}</a>
+        {% else %}
+
+
+        {% endif %} {% endfor %}</div>
+
+</div>

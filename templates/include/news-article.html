@@ -1,0 +1,21 @@
+{% load static %}
+
+
+
+
+
+<div class="expanded-w bg-white pad-1">
+    <a href="{% url 'news' id=new.id %}">
+        <img class="expanded-w  h-150 cover pointer" src="{{new.image.url}}" alt="">
+    </a>
+    <div class="line-limit-3 fs-1-4 fw-bold pt-1">
+        <a href="{% url 'news' id=new.id %}">
+            {{new.title}}
+        </a>
+
+    </div>
+
+
+
+
+</div>

@@ -1,0 +1,35 @@
+<div class="row sb ai-center expanded-w border-style">
+    <div class="fs-2-2 fw-bold pad-1 text-black">आपराध</div>
+    <a class="row gap-1 ai-center hover-0088FF" href="{% url 'category' title='criminal'%}">
+        <div class="pad-0-7 bg-0088FF text-white fs-1-2">></div>
+        <div class="fs-1-4 fw-bold pr-0-7"> READ MORE</div>
+    </a>
+</div>
+
+
+<div class="pt-1">
+
+    <ul class="list-none-style divider font-weight-700 fs-1-4">
+
+        {% for news in items.criminal %}
+
+        {% if forloop.last %}
+
+        {%else%}
+
+        <li>
+            <div class="row gap-1">
+                <img class="h-70 w-100 cover pointer" onclick="onClickNews('{{news.id}}')" src="{{news.image.url}}"
+                    alt="">
+
+
+                <a href="{% url 'news' id=news.id  %}">{{news.title}}</a>
+            </div>
+        </li>
+        {%endif%}
+
+
+        {%endfor%}
+    </ul>
+
+</div>

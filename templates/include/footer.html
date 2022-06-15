@@ -1,0 +1,91 @@
+{% load static %}
+
+<footer class="expanded center bg-lightblack  ">
+    <div class="my-container pad-2 grid grid-column-4-1fr mob-grid text-white gap-2 ">
+
+        <div class="logo-footer column gap-1 expanded-w">
+            <img class="expanded-60 pt-0-8" src="{% static 'media/logo/janabechar-black.svg' %}" alt="">
+
+            <div class="row dec-none gap-2 pt-2  ">
+
+                <a href="#"> <img class="h-30" src="{% static 'media/Facebook.png' %}" alt=""></a>
+                <a href="#"> <img class="h-30" src="{% static 'media/Twitter.png' %}" alt=""></a>
+                <a href="#"> <img class="h-30" src="{% static 'media/Instagram.png' %}" alt=""></a>
+
+
+
+
+            </div>
+            <div class=" pt-1 fs-1-4 ">दमक, नेपाल</div>
+            <div class=" pt-1 fs-1-4 ">सम्पर्क :- +9779814963098</div>
+            <div class=" pt-0-5 fs-1-4 ">ईमेल :- info@janabechar.com</div>
+
+
+
+
+        </div>
+
+
+
+        <div class="contact-footer column   gap-1 expanded-w  pt-2">
+            <div class="fs-2-4 fw-bold">Quick links</div>
+            <div class="grid grid-column-2-1fr pt-2 fs-1-4 text-white gap-1">
+                {% for category in categories %}
+
+
+
+                <a class=" text-white" href="{% url 'category' title=category.title %}">{{category.name}}</a>
+
+                {% endfor %}
+            </div>
+        </div>
+        <div class="contact-footer column gap-1 expanded-w pt-2">
+            <a class=" fs-2-4 fw-bold">Company</a>
+            <a class=" circle-icon pt-2 fs-1-4">About Us</a>
+            <a class="fs-1-4 pt-2">Terms & Conditions</a>
+            <a class="fs-1-4 pt-2">Privacy Policy</a>
+
+        </div>
+        <div class="expanded-w center">
+            <div class="subscribe-box column gap-0-5 text-center expanded-w  h-200 expanded pt-1" id="subscribe-input">
+                <a class=" fs-2-4 fw-bold">Our Newsletter</a>
+                <div class="sb-1"></div>
+
+                <input type="text" class="pad-1-2 fs-1-4" id="email-subscription" placeholder="Your Email Address">
+                <span class="text-danger  fs-1-2" style="text-align: left;" id="subscribe-error"></span>
+                <div class="sb-1"></div>
+                <button type="submit" class=" btn  pad-1-2 fs-1-4 text-white bg-red pointer" id="subscribe-button"
+                    onclick="subscribe()">Subscribe</button>
+
+            </div>
+            <div class="success-box pad-2  bg-white text-black  display-none" id="subscribe-success">
+                <div class="row center gap-2 ai-center">
+                    <i class="fa fa-check-circle fs-4 text-green" aria-hidden="true"></i>
+                    <div class="fs-1-6">Thank you for subscribing to our newsletter.</div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="sb-2"></div>
+    <hr width="90%" color="gray">
+
+    <div class="sb-2"></div>
+    <div class="column center fs-2 text-white pb-2 gap-1">
+        <h6>© Copyright Janabechar. All Rights Reserved</h6>
+
+        <h6>Power by: <a class="text-yellow" href="http://superlativstudios.com/"> Superlativ Studios</a>
+        </h6>
+
+
+    </div>
+
+</footer>
+
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=214679257185429&autoLogAppEvents=1"
+    nonce="616Gm4pD"></script>
